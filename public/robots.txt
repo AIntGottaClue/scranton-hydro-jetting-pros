@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://scrantonhydrojetting.prosapp.site/sitemap.xml
