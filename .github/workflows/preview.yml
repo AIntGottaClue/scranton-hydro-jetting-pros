@@ -42,7 +42,7 @@ jobs:
               s=open(p).read().replace('href="/"', 'href="/Biz-Directory-POC/"')
               open(p,'w').write(s)
           PY
-          if [ -f package.json ]; then npm ci --ignore-scripts && npm run build; else mkdir -p dist; find . -mindepth 1 -maxdepth 1 ! -name .git ! -name .github ! -name dist ! -name '*.zip' -exec cp -a {} dist/ \;; fi
+          if [ -f package.json ]; then npm install --ignore-scripts && npm run build; else mkdir -p dist; find . -mindepth 1 -maxdepth 1 ! -name .git ! -name .github ! -name dist ! -name '*.zip' -exec cp -a {} dist/ \;; fi
           python3 - <<'PY'
           import os,re
           from pathlib import Path
