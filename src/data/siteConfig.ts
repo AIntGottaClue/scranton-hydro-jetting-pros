@@ -4,6 +4,6 @@ export const siteConfig = {
   origin: 'https://scrantonhydrojetting.prosapp.site',
   phoneDisplay: '(877) 761-0283',
   phoneHref: '+18777610283',
-  ga4MeasurementId: 'G-XXXXXXXXXX',
+  ga4MeasurementId: 'G-PB1F6LTF6Q',
   airchattyTrackingId: 'tk_61d238e145314251999b74fdd5c953cf',
 } as const;
